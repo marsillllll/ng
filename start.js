@@ -16,7 +16,9 @@ function onSubmit(e) {
   if(nameInput.value === '' || emailInput.value === '' || birthday.value === '' ||  Gender.value === '') {
     msg.classList.add('error');
     msg.innerHTML = 'Bitte füllen Sie alle Felder aus';
-    setTimeout(() => msg.remove(), 3000);
+    msg.style.display = "block" ;
+    setTimeout(() => msg.style.display = "none", 3000);
+
   } 
 else {
     const li = document.createElement('li');
@@ -25,4 +27,5 @@ else {
     nameInput.value = '';
     emailInput.value = '';
     birthday.value ='';
-    Gender.value = ''; }}
+    Gender.value = ''; 
+  }}
