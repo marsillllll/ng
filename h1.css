@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  input {
+      background-color:#DD0000 ;
+      border-radius: 8%;
+  }
+  #bir {
+      border-radius: 50px;
+  }
+  select {
+      background-color:#DD0000 ;
+  }
+ 
+
+  
+  body {
+      background-image: url("doctor.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color:#000000;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 5px;
+    background: #DD0000;
+    margin: 5px 0;
+  }
+  
+  header {
+    background:#FFCE00 ;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+
+  }
+
+  
+  .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+  
+  #my-form {
+    padding: 3rem;
+    background: #FFCE00;
+  }
+  
+  #my-form label {
+    display: block;
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #DD0000;
+    color: rgb(5, 0, 0);
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .btn:hover {
+    background: #444;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
+  .items {
+      background-color: #FFCE00;
+  }
+  #users {
+      background-color: #FFCE00;
+  }
+ 
